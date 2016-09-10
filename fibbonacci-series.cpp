@@ -22,6 +22,8 @@ int main()
 
 /*
 
+---------  Output  -------------
+
 Enter number of terms you want in the fibbonaci Series - 10
 0 1 1 2 3 5 8 13 21 34
 
