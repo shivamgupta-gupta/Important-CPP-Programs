@@ -26,3 +26,12 @@ int main()
     }
     return 0;
 }
+
+/*
+
+----------  OUTPUT  ---------------
+
+Enter number - 47
+47 is a prime number.
+
+*/
