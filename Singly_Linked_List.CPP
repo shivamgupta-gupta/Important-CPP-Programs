@@ -87,16 +87,16 @@ void create_ll(){
 		new_node->next = NULL;
 	}
 
-	       for(i=1;i<n;i++){
-			ptr = start;
-			new_node = (struct node *)malloc(sizeof(struct node));
-			new_node->data = a[i];
-			while(ptr->next!=NULL){
-				ptr = ptr->next;
-			}
-			ptr->next = new_node;
-			new_node->next = NULL;
-	       }
+	for(i=1;i<n;i++){
+		ptr = start;
+		new_node = (struct node *)malloc(sizeof(struct node));
+		new_node->data = a[i];
+		while(ptr->next!=NULL){
+			ptr = ptr->next;
+		}
+		ptr->next = new_node;
+		new_node->next = NULL;
+	}
 }
 
 void display(){
