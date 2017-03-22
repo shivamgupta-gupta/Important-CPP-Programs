@@ -25,7 +25,8 @@ void main()
 }
 
 
-
+/*
 ----------  OUTPUT  -----------
 Enter number - 12
 Factors are - 1,2,3,4,6,12,
+*/
